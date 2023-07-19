@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav section */
+.social-icon {
+    /* background: aqua; */
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 177px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 3px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-icons {
+    width: 30%;
+
+}
+
+.nav-title img {
+    margin-right: 10px;
+}
+
+.nav-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-icons ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.primary-color {
+    color: #FF42A5;
+}
+
+.nav-icons ul {
+    list-style: none;
+    align-items: center;
+
+}
+
+/* utility classes */
+
+.paragraph-text {
+    color: #534C64;
+    text-align: right;
+    font-family: serif;
+    font-size: 16px;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* main section */
+main {
+    background-color: #FFF;
+    
+}
+
+/* banner section */
+.banner {
+    background-image: url('images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+
+.banner-text{
+    
+}
+
+.banner-btn-2{
+    border-radius: 11px;
+    padding: 11px 12px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #4EC5F7;
+    border: none;
+}
+.banner-btn-1 {
+    margin-right: 19px;
+    border-radius: 11px;
+    padding: 11px 12px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #FF42A5;
+    border: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.banner-img img {
+    width: 408px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.material-symbols-outlined {
+    font-size: 15px;
+    color: #FF42A5;
+}
+
+.banner-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-title-text {
+   
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.banner-ul{
+    padding: 10px 0px;
+}
+/* funny section */
+.funny-seciton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.funny-seciton h1{
+   font-size: 34px;
+}
+.funny-title-text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.funny-vedio-container{
+    display: flex;
+    width: 68%;
+    justify-content: space-around;
+padding: 20px 0px;
+
+}
+
+.funny-box{
+}
+
+
+/* gamer about section */
+
+.gamer-about-section{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-around;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+padding: 65px 127px;
+}
+.gamer-section-text{
+    text-align: right;
+    width: 31%;
+}
+.gamer-about-section img{
+    width: 54%;
+}
+
+
+.know-more-button{
+margin-right:0px;
+
+}
+
+
+/* instant play section */
+
+.instent-play{
+    display: flex;
+    align-items: center;
+    padding: 121px 197px;
+    justify-content: space-around;
+    padding-right: 104px;
+}
+.instent-play img{
+    width: 41%;
+}
+.instent-play-text{
+    text-align: right;
+    width: 36%;
+}
+
+.pg-color{
+    color: #F948B2;
+    
+}
+
+.section-title{
+    line-height: 30px;
+}
+
+.absolute-image{
+    position: absolute;
+    top: 1671px;
+    left: 639px;
+
+}
+   
+
+
+/* ----2nd part of instent play section---- */
+.instent-play-2{
+    display: flex;
+    align-items: center;
+    padding: 44px 197px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-left: 104px;
+    
+}
+.instent-play-2 img{
+    width: 41%;
+}
+.instent-play-text-2{
+    text-align: left;
+    width: 36%;
+}
+
+.pg-color{
+    color: #F948B2;
+    
+}
+
+.section-title{
+    line-height: 30px;
+}
+
+.absolute-image-2{
+    position: absolute;
+    top: 2180px;
+    left: 422px;
+}
+    
+
+.funny-box img{
+    width: 200px
+}
+
+
+/* game-type section */
+.type-box img{
+    width: 24%;
+    padding: 4px 0px;
+    margin-right: 10px;
+
+}
+
+.type-container{
+    display: flex;
+    width: 64%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    gap: 10px;
+    padding: 107px 0px;
+}
+
+.type-box:hover{
+    border:1px solid red;
+    cursor: pointer;
+}
+.type-box{
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    /* width: 16%; */
+    align-items: center;
+    font-size: 12px;
+}
+
+
+/* footer section */
+
+footer{
+    text-align: center;
+    background-color: #0B0223;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 33px 0px;
+}
+
+.footer-title img {
+    margin-right: 10px;
+}
+
+.footer-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-list{
+    display: flex;
+    gap: 20px;
+    padding: 11px 0px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.text-margin{
+    display: flex;
+    padding: 10px 0px;
+    width: 40%;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.60);;
+    justify-content: space-around;
+}
+.footer-last-text{
+    padding: 4px 0px;
+    font-size: 13px;
+    
+    color: rgba(255, 255, 255, 0.60);
+
+}
+.social-links{
+    font-size: 30px;
+    display: flex;
+    padding: 16px 0px;
+    width: 32%;
+    justify-content: space-around;
+}
+
+.paragraph-text-vedio{
+    color: #534C64;
+    ;
+    font-family: serif;
+    font-size: 16px;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+/* mobile device */
+@media screen and (max-width: 576px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 42px 0px;
+    }
+    .nav-icons ul{
+     display: flex;
+     flex-direction: column;
+    }
+    ul li{
+        padding: 3px 0px;
+    }
+    .banner{
+        
+        flex-direction: column-reverse;
+    }
+    .gamer-about-section{
+        flex-direction: column-reverse;
+        padding: 30px 0px;
+    }
+    .gamer-about-section img{
+        width: 89%;
+        margin-bottom: 10px;
+    }
+    .gamer-section-text{
+        text-align: center;
+    width: 68%;
+
+    }
+    .banner-text{
+          padding: 50px 0px;
+    }
+    .banner-title-text{
+        font-size: 35px;
+    }
+
+    .funny-vedio-container{
+        display: flex;
+
+        flex-direction: column;
+        width: none;
+        align-items: center;
+    }
+    .funny-box{
+        margin-bottom:10px;
+    }
+    .funny-seciton{
+        text-align: center;
+    }
+    .funny-seciton-h1{
+        
+        font-size: 32px;
+
+    }
+    .instent-play{
+        display: flex;
+        flex-direction: column;
+        padding: 38px 0px;
+    }
+    .instent-play-text{
+        width: 100%;
+        text-align: center;
+    }
+    .paragraph-text{
+        text-align: center;
+    }
+    .instent-play-2{
+        padding: 52px 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .instent-play-text-2{
+ width: 100%;
+ text-align: center;
+
+    }
+    .absolute-image{
+    
+         display: none;
+    }
+    .absolute-image-2{
+    
+    display: none;
+
+    }
+}
